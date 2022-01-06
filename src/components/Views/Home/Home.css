@@ -1,0 +1,95 @@
+.home-view {
+    padding   : 3em;
+    text-align: center;
+}
+
+.question {
+    width        : 50vw;
+    margin       : 1rem auto;
+    padding      : 1rem 1.5rem;
+    border       : 2px solid #eae6eb;
+    border-radius: 0.25rem;
+    box-shadow   : 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align   : unset;
+}
+
+.question h4 {
+    text-transform: none;
+    line-height   : 1.5;
+}
+
+.question p {
+    color        : hsl(209, 34%, 30%);
+    margin-bottom: 0;
+    margin-top   : 0.5rem;
+}
+
+.question header {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.question header h4 {
+    margin-bottom: 0;
+}
+
+.question main {
+    text-align: justify;
+}
+
+.question footer {
+    display        : flex;
+    margin         : .3em auto;
+    justify-content: space-between;
+}
+
+.author {
+    flex           : 1;
+    justify-content: end;
+    display        : flex;
+    font-style     : italic;
+    align-items    : center;
+}
+
+.actions {
+    width          : 15%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+}
+
+.badge {
+    top          : -7px !important;
+    display      : inline-block;
+    padding      : .25em .50em;
+    font-size    : .75em;
+    font-weight  : 600;
+    line-height  : 1em;
+    color        : #fff;
+    position     : absolute !important;
+    background   : black;
+    border-radius: 3em !important;
+    margin-left  : 0;
+}
+
+article .create {
+    position: fixed;
+    left    : 0;
+}
+
+.expendable-input {
+    padding      : 5px 14px;
+    display      : block;
+    width        : 100%;
+    overflow     : hidden;
+    resize       : none;
+    outline      : none;
+    min-height   : 40px;
+    line-height  : 20px;
+    margin       : 1em auto;
+    border       : 1px solid;
+    border-radius: 3em;
+    display      : flex;
+    align-items  : center;
+}

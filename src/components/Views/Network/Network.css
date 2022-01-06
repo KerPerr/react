@@ -1,0 +1,64 @@
+.net-view {
+    display  : flex;
+    flex-wrap: wrap;
+    height   : calc(100vh - 60px);
+}
+
+.left-panel {
+    width           : 220px !important;
+    color           : aliceblue;
+    background-color: #4a546c;
+}
+
+.left-panel p {
+    padding      : 1em;
+    font-weight  : bold;
+    text-align   : center;
+    border-top   : 1px solid;
+    border-bottom: 1px solid;
+}
+
+.left-panel li a {
+    width: 95%;
+}
+
+.right-panel {
+    display       : flex;
+    flex          : 1 0 0;
+    flex-direction: column;
+}
+
+.result {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    background    : #5755d9;
+    border-radius : 50%;
+    color         : rgba(255, 255, 255, .85);
+    display       : inline-block;
+    font-size     : .8rem;
+    font-weight   : 300;
+    height        : 1.6rem;
+    line-height   : 1.25;
+    margin        : 0;
+    margin-right  : 0px;
+    position      : relative;
+    vertical-align: middle;
+    width         : 1.6rem;
+}
+
+.avatar.avatar-xl {
+    font-size: 1.6rem;
+    height   : 3.2rem;
+    width    : 3.2rem;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height       : 100%;
+    position     : relative;
+    width        : 100%;
+    z-index      : 1;
+}
